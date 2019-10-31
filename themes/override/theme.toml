@@ -1,0 +1,11 @@
+name = "Timer Hugo Override"
+license = "CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+description = "Tweaking timer-hugo"
+homepage = ""
+tags = []
+features = ['bootstrap','responsive']
+min_version = "0.55"
+
+[author]
+  name = "jlevesy"

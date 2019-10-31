@@ -1,0 +1,102 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Organize events in a breeze"
+theme = ["override", "timer-hugo"]
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    # [[menu.nav]]
+    #    name    = "Contact"
+    #    url     = "contact"
+    #    weight  = 1
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    description = "Organize events easily and engage your attendees"
+    author = "Bloup"
+    googleAnalitycsID = "Your ID"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        # Link back: Photo by Ylanite Koppens from Pexels
+        bgImage = "images/slider.jpg"
+        heading = "I want to organize"
+        description = "It never have been easier to organize events"
+        btn     = true
+        btnText = "Get Started"
+        btnURL  = "contact"
+        [[params.banner.flipText]]
+            title   = "A Party"
+        [[params.banner.flipText]]
+            title   = "A Hike"
+        [[params.banner.flipText]]
+            title   = "A Diner"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "A new way of organizing events"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        image   = "images/about.png"
+
+    [params.feature]
+        # Possible icons => https://infinitered.github.io/ionicons-version-3-search/
+        enable = true
+        title = "This is what we bring"
+        subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi."
+
+        [[params.feature.item]]
+            icon = "ion-ios-flask-outline"
+            title = "Feature"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+        [[params.feature.item]]
+            icon = "ion-ios-flask-outline"
+            title = "More Feature"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+        [[params.feature.item]]
+            icon = "ion-ios-flask-outline"
+            title = "Lovely feature"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+        [[params.feature.item]]
+            icon = "ion-ios-flask-outline"
+            title = "Feature"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+        [[params.feature.item]]
+            icon = "ion-ios-flask-outline"
+            title = "More Feature"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+        [[params.feature.item]]
+            icon = "ion-ios-game-controller-a"
+            title = "Lovely feature"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "So, What do you think ?"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        btnText = "Sign up now"
+        btnURL  = "/contact"
+
+    [params.footer]
+        [[params.footer.socialIcon]]
+            icon = "ion-social-facebook"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-instagram"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-linkedin"
+            url = "#"
