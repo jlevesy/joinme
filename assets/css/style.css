@@ -1334,4 +1334,8 @@ ul.social-icons li {
   margin-top: 100px;
 }
 
+.hvr-bounce-to-right::before {
+  background: #ff5b4b;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
