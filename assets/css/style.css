@@ -1325,4 +1325,13 @@ ul.social-icons li {
   text-decoration: none;
 }
 
+.form-banner {
+  padding-top: 200px !important;
+  padding-bottom: 100px !important;
+}
+
+#sign-up {
+  margin-top: 100px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
