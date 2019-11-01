@@ -3,11 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jlevesy.github.io/joinme/categories/</loc>
+    <loc>https://jlevesy.github.io/joinme/</loc>
+    <lastmod>2019-11-01T04:27:38+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jlevesy.github.io/joinme/</loc>
+    <loc>https://jlevesy.github.io/joinme/sign-up/</loc>
+    <lastmod>2019-11-01T04:27:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jlevesy.github.io/joinme/categories/</loc>
   </url>
   
   <url>
