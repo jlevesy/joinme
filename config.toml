@@ -37,7 +37,7 @@ theme = ["timer-hugo"]
         # Link back: Photo by Ylanite Koppens from Pexels
         bgImage = "images/slider.jpg"
         heading = "I want to organize"
-        description = "It never have been easier to organize events"
+        description = "It has never been easier to organize events"
         btn     = true
         btnText = "Get Started"
         btnURL  = "sign-up"
