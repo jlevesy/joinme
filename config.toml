@@ -1,7 +1,7 @@
 baseURL = "https://jlevesy.github.io/joinme/"
 languageCode = "en-us"
 title = "Organize events in a breeze"
-theme = ["override", "timer-hugo"]
+theme = ["timer-hugo"]
 
 # Site Menus
 [menu]
@@ -25,7 +25,7 @@ theme = ["override", "timer-hugo"]
 [params]
     home = "Home"
     logo = ""
-    brand = "Joinme"
+    brand = "join.me"
     dateFormat = "6 January 2006"
     description = "Organize events easily and engage your attendees"
     author = "Bloup"
