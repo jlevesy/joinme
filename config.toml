@@ -8,12 +8,12 @@ theme = ["timer-hugo"]
     # Navbar Menus
     [[menu.nav]]
        name    = "About"
-       url     = "#about"
+       url     = "/#about"
        weight  = 1
 
     [[menu.nav]]
        name    = "Features"
-       url     = "#feature"
+       url     = "/#feature"
        weight  = 1
 
     [[menu.nav]]
@@ -40,7 +40,7 @@ theme = ["timer-hugo"]
         description = "It never have been easier to organize events"
         btn     = true
         btnText = "Get Started"
-        btnURL  = "/sign-up"
+        btnURL  = "sign-up"
         [[params.banner.flipText]]
             title   = "A Party"
         [[params.banner.flipText]]
@@ -97,7 +97,7 @@ theme = ["timer-hugo"]
         title   = "So, What do you think ?"
         content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
         btnText = "Get started"
-        btnURL  = "/sign-up"
+        btnURL  = "sign-up"
 
     [params.footer]
         [[params.footer.socialIcon]]
