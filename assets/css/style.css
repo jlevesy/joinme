@@ -1338,4 +1338,8 @@ ul.social-icons li {
   background: #ff5b4b;
 }
 
+#sign-up .embed-responsive .embed-responsive-item {
+  height: 120% !important;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
