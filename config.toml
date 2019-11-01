@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jlevesy.github.io/joinme/"
 languageCode = "en-us"
 title = "Organize events in a breeze"
 theme = ["override", "timer-hugo"]
