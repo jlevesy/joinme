@@ -6,15 +6,26 @@ theme = ["override", "timer-hugo"]
 # Site Menus
 [menu]
     # Navbar Menus
-    # [[menu.nav]]
-    #    name    = "Contact"
-    #    url     = "contact"
-    #    weight  = 1
+    [[menu.nav]]
+       name    = "About"
+       url     = "#about"
+       weight  = 1
+
+    [[menu.nav]]
+       name    = "Features"
+       url     = "#feature"
+       weight  = 1
+
+    [[menu.nav]]
+       name    = "Get started"
+       url     = "#contact"
+       weight  = 1
 
 # Site Params
 [params]
     home = "Home"
-    logo = "images/logo.png"
+    logo = ""
+    brand = "Joinme"
     dateFormat = "6 January 2006"
     description = "Organize events easily and engage your attendees"
     author = "Bloup"
@@ -85,7 +96,7 @@ theme = ["override", "timer-hugo"]
         enable  = true
         title   = "So, What do you think ?"
         content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-        btnText = "Sign up now"
+        btnText = "Get started"
         btnURL  = "/contact"
 
     [params.footer]

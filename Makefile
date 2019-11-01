@@ -13,7 +13,7 @@ clean:
 	@rm -rf $(DIST_DIR)/*
 
 .PHONY: deploy
-deploy: clean setup_worktree build
+deploy: clean build
 	cd $(DIST_DIR) && git add --all && git commit -m "Deploying to gh-pages"
 	git push origin gh-pages
 
