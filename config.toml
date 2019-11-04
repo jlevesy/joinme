@@ -25,7 +25,7 @@ theme = ["timer-hugo"]
 [params]
     home = "Home"
     logo = ""
-    brand = "join.me"
+    brand = "Beevent"
     dateFormat = "6 January 2006"
     description = "Organize events easily and engage your attendees"
     author = "Bloup"
@@ -37,7 +37,7 @@ theme = ["timer-hugo"]
         # Link back: Photo by Ylanite Koppens from Pexels
         bgImage = "images/slider.jpg"
         heading = "I want to organize"
-        description = "It has never been easier to organize events"
+        description = "Organizing a bachelors party or weekend out with friends ? Beevent helps you manage attendees, decide and date and locations and share the tasks"
         btn     = true
         btnText = "Get Started"
         btnURL  = "sign-up"
@@ -52,7 +52,7 @@ theme = ["timer-hugo"]
     [params.about]
         enable  = true
         title   = "A new way of organizing events"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        content = "Do you want to organize a party or a weekend trip with your friends? Do you want to get their help in preparation? Beevent helps you to set up your event fast and easy.  It also a great tool for collaboration so you are not alone in preparing your event"
         image   = "images/about.png"
 
     [params.feature]
@@ -63,33 +63,33 @@ theme = ["timer-hugo"]
 
         [[params.feature.item]]
             icon = "ion-ios-flask-outline"
-            title = "Feature"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+            title = "No sign up required"
+            description = "Your guests don't need any sign-up to join your event"
 
         [[params.feature.item]]
             icon = "ion-ios-flask-outline"
-            title = "More Feature"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+            title = "Seemless communication"
+            description = "Guests receive your updates on your prefered platform. Could it be WhatsApp, Email, SMS or Facebook Messenger"
 
         [[params.feature.item]]
             icon = "ion-ios-flask-outline"
-            title = "Lovely feature"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+            title = "Task delegation"
+            description = "I'll bring the pizza, you can bring the dessert! Anyone has some space in their car? Does anyone have a spare tennis racket? Easily create and assign tasks to your guests to make sure nothing gets forgotten and everyone knows how they can contribute"
 
         [[params.feature.item]]
             icon = "ion-ios-flask-outline"
-            title = "Feature"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+            title = "Event templates"
+            description = ""
 
         [[params.feature.item]]
+            title = "Smart Invitations"
             icon = "ion-ios-flask-outline"
-            title = "More Feature"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+            description = "Beevent manages for you the invitation list. If someone cancels then beevent will automatically send a new inviation to the next guest on waiting list"
 
         [[params.feature.item]]
             icon = "ion-ios-game-controller-a"
-            title = "Lovely feature"
-            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+            title = "Manage expenses"
+            description = "Easilly share the event expenses with the attendees."
 
     # Call to Action
     [params.cta]
