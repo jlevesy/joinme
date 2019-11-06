@@ -35,9 +35,10 @@ theme = ["timer-hugo"]
     [params.banner]
         enable  = true
         # Link back: Photo by Ylanite Koppens from Pexels
-        bgImage = "images/slider.jpg"
+        bgImage = "images/proposal1.jpg"
         heading = "I want to organize"
-        description = "Organizing a bachelors party or weekend out with friends ? Beevent helps you manage attendees, decide and date and locations and share the tasks"
+         description = "Beevent helps you organize your events in a breeze"
+        # description = "Setup, Invite, Collaborate"
         btn     = true
         btnText = "Get Started"
         btnURL  = "sign-up"
@@ -47,11 +48,15 @@ theme = ["timer-hugo"]
             title   = "A Hike"
         [[params.banner.flipText]]
             title   = "A Diner"
+        [[params.banner.flipText]]
+            title   = "A Trip"
+        [[params.banner.flipText]]
+            title   = "A Weekend"
 
     # Homepage About Section
     [params.about]
         enable  = true
-        title   = "A new way of organizing events"
+        title   = "Setup, Invite and Collaborate"
         content = "Do you want to organize a party or a weekend trip with your friends? Do you want to get their help in preparation? Beevent helps you to set up your event fast and easy.  It also a great tool for collaboration so you are not alone in preparing your event"
         image   = "images/about.png"
 
